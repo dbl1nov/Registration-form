@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    100deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding-top: 50px;
+  width: 500px;
+  height: 700px;
+  display: inline-block;
+  text-align: center;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: block;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+input {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  height: 30px;
+  padding: 30px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+}
+
+.checkbox {
+  margin-top: 10px;
+  white-space: nowrap;
+  display: inline-flex;
+  width: 250px;
+  font-size: 23px;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  height: 150px;
+  outline: none;
+  border: none;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: rgb(38, 180, 38);
+  border: none;
+  color: #fff;
+  border-radius: 25px;
+  transition: all 0.2s ease-in;
+}
+
+button:hover {
+  background-color: rgb(41, 221, 41);
+}
